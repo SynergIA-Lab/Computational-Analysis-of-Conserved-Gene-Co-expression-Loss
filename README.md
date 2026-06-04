@@ -7,7 +7,7 @@
 
 This repository contains the complete analytical pipeline used in the study:
 
-> Ríos-Cadenas M., Segura-Carmona I., López-Fernández A., Gómez-Vela F.A. *Computational Analysis of Conserved Gene Co-expression Loss Reveals Prognostic Regulatory Network Disruption Across Solid Tumors*. Preprint submitted to Computational Biology and Chemistry, 2026.
+> Ríos-Cadenas M., Segura-Carmona I., López-Fernández A., Gómez-Vela F.A. *Computational Analysis of Conserved Gene Co-expression Loss Reveals Prognostic Regulatory Network Disruption Across Solid Tumors*. Preprint submitted to Network Modeling Analysis in Health Informatics, 2026.
 
 The pipeline identifies gene co-expression interactions that are strongly preserved in healthy tissue but consistently lost during malignant transformation across four solid tumor types from The Cancer Genome Atlas (TCGA): breast invasive carcinoma (BRCA), lung adenocarcinoma (LUAD), head and neck squamous cell carcinoma (HNSC), and stomach adenocarcinoma (STAD).
 
