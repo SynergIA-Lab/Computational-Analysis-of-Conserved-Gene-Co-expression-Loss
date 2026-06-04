@@ -254,7 +254,6 @@ Identifies lost interactions conserved across multiple cancer types through a tw
 - Loads lost interaction catalogues from all 11 biological contexts (4 BRCA subtypes, 2 LUAD locations, 3 HNSC subsites, 2 STAD subtypes)
 - **Project-level consensus**: retains only interactions present in ALL subdatasets within each cancer type (robust to intratumor heterogeneity)
 - **Pairwise intersection**: identifies interactions shared between all pairs of cancer types (BRCA-LUAD, BRCA-HNSC, BRCA-STAD, LUAD-HNSC, LUAD-STAD, HNSC-STAD)
-- **Universal core**: identifies interactions conserved across all datasets simultaneously
 - Computes mean ΔCorrelation across datasets for each consensus interaction
 - Processes both FC2 and FC3 thresholds
 
@@ -267,7 +266,6 @@ lost_interactions.csv     # From Step 4, for each of the 11 subdatasets
 ```
 01_PROYECTO_TCGA-*.csv    # Project-level consensus interactions per cancer type
 02_PAR_TCGA-*_vs_TCGA-*.csv   # Pairwise cross-cancer interactions
-03_UNIVERSAL_Core_Total.csv   # Universal core (all datasets)
 *_Resumen.txt             # Summary reports for each comparison
 ```
 
