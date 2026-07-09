@@ -1,0 +1,4 @@
+Configuration,n_total,Shared_with_0.7_0.3,Union,Jaccard
+"Top 1% (rank-based, Delta_r)",3,0,21,0
+"Top 5% (rank-based, Delta_r)",100,10,108,0.093
+"Top 10% (rank-based, Delta_r)",750,18,750,0.024
